@@ -1,12 +1,70 @@
-# React + Vite
+# React Dynamic Table Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a reusable, customizable React component for rendering dynamic tables with the following features:
 
-Currently, two official plugins are available:
+* ✅ Column-wise sorting (ascending/descending)
+* ✅ Global text-based filtering (searches all subcomponent fields)
+* ✅ Pagination with page controls
+* ✅ Responsive UI using Tailwind CSS
+* ✅ Handles nested data structures (like grouped subcomponents)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+![Screenshot 2025-05-23 135151](https://github.com/user-attachments/assets/c48349cc-7bcd-4bef-b724-6d827cddbc09)
+![Screenshot 2025-05-23 135259](https://github.com/user-attachments/assets/5de633dd-227f-4b87-b686-47e785565773)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+### Prerequisites
+
+* Node.js (v14 or higher recommended)
+* npm or yarn
+
+### Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/your-username/react-dynamic-table.git
+cd react-dynamic-table
+```
+
+2. **Install dependencies:**
+
+```bash
+npm install
+# or
+yarn
+```
+
+3. **Run the development server:**
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Open your browser and go to `http://localhost:5173` to see the table.
+
+---
+
+
+* **Filtering:** A global input filters all parent and nested subcomponent values.
+* **Sorting:** Clicking on column headers or selecting from a dropdown sorts the column.
+* **Pagination:** Displays `7` items per page by default.
+
+---
+
+
+---
+
+## 🛠️ Technologies Used
+
+* React
+* Tailwind CSS
+* Vite (build tool)
+* redux (Fetching inventory dataset)
+
+---
+
