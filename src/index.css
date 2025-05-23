@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(to bottom, #0f172a, #1f2937); /* slate-900 to gray-800 */
+  color: #cbd5e1;
+}
+
