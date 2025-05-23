@@ -25,7 +25,7 @@ This project is a reusable, customizable React component for rendering dynamic t
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/react-dynamic-table.git
+git clone https://github.com/Poojachoudhary21/Inventory-Manag-system.git
 cd react-dynamic-table
 ```
 
