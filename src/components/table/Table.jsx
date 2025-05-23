@@ -51,6 +51,10 @@ const Table = ({ dynamicKeys, data, loading }) => {
       setSortOrder("asc");
     }
   };
+  const handleFilterChange = (e) => {
+    setFilterTerm(e.target.value);
+    setCurrentPage(1); // Reset to first page on filter change
+  };
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-10">
@@ -59,7 +63,7 @@ const Table = ({ dynamicKeys, data, loading }) => {
           type="text"
           placeholder="Filter..."
           value={filterTerm}
-          onChange={(e) => setFilterTerm(e.target.value)}
+          onChange={handleFilterChange}
           className="px-3 py-2 border border-gray-300 bg-slate-800 text-white rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent w-full sm:w-64"
         />
 
